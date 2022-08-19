@@ -1,7 +1,7 @@
 const express = require ("express")
 //connecting express router to my router
 const router = express.Router();
-const con = require ("../lib/db_connect")
+const con = require ("../lib/db_connection")
 
 router.get("/", (req,res) =>{
     try{
